@@ -1,0 +1,175 @@
+.edit-icon, .delete-icon, .up-icon, .view-icon  {
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+.edit-icon {
+    color: green;
+}
+.delete-icon {
+    color: red;
+}
+.up-icon {
+    color: #00acc1;
+}
+.view-icon {
+    background-color: tomato;
+    color: #fff;
+    font-size: 16px;
+    width: 35px;
+}
+.status {
+    background-color: #00acc1;
+    color: #fff;
+    padding: 2px 20px 5px 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.image {
+    height: 50px;
+}
+.header-title {
+    font-size: 24px;
+}
+
+/* style for Banner option html.file */
+.banner-container{
+    display: flex;
+    margin-top: 20px;
+}
+.add-banner-container {
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px lightgray;
+    padding: 20px;
+}
+.banner-header-title {
+    text-align: center;
+    background-color: #269746;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.add-banner-btn {
+    border: 1px solid #ffa798;
+    background-color: #ffa798;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px 20px;
+}
+/* style for Banner option html.file */
+
+.select{
+    width: 100%;
+    padding: 0.45rem 0.9rem;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6c757d;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.2rem;
+}
+.select:focus {
+    outline: none;
+
+}
+
+table tbody tr td {
+    vertical-align: middle;
+}
+
+.total-user-nbr {
+    background-color: tomato;
+    color: #fff;
+    padding: 10px 30px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+/* style for Admin User Role */
+.admin-access {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.admin-access > .brand, .category, .product, .slider, .coupon, .shipping, .setting, .returnOrder, .review, .orders, .stock, .reports, .allUser, .adminUserRole {
+    background-color: #00acc1;
+    color: #fff;
+    margin: 3px;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+.admin-btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 20px 0;
+}
+.admin-btns > .employee-btn, .admin-btn {
+    background-color: #f1556c;
+    border: 1px solid #f1556c;
+    border-radius: 5px;
+    padding: 3px 20px;
+    color: #fff;
+    font-size: 16px;
+}
+.admin-btns > .employee-btn > a, .admin-btn > a {
+    color: #fff;
+}
+.admin-btns .employee-btn {
+    background-color: #00BC8B;
+    border: 1px solid #00BC8B;
+}
+.admin-input-container {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 0;
+}
+.adminImage {
+    height: 100px;
+}
+/* style for Admin User Role */
+
+
+/* style for view-employee.html file start */
+.employee-view-container .employee-title {
+    font-size: 24px;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 0 10px 30px;
+}
+.employee-view-container .employee-image {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.employee-view-container .employee-image img {
+    height: 160px;
+    border-radius: 50%;
+    border: 3px solid #00acc1;
+}
+.employee-view-container .employee-info {
+    color: #6c757d;
+    font-weight: 400;
+}
+
+/* style for view-employee.html file start */.employee-pay-container-wrapper .employee-title,
+.show-employee-pay-container-wrapper .employee-title {
+    border-bottom: 1px solid lightgray;
+    padding: 15px 25px;
+    font-size: 24px;
+}
+
+.show-employee-pay-container-wrapper {
+    display: none;
+}
+
+.show-employee-pay-container-wrapper .employee-info>h5 {
+    font-size: 1.25em;
+    font-weight: 300;
+}

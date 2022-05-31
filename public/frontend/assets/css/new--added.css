@@ -1,0 +1,218 @@
+
+
+
+
+
+/* ~~~~~~Category page~~~~~~~~~ */
+
+
+
+/* banner starts */
+
+.category01--banner-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) { 
+
+
+    .category01--banner-wrap img{
+        width: 40rem;
+    }
+
+ }
+@media (max-width: 576px) { 
+
+
+    .category01--banner-wrap img{
+        width: 25rem;
+    }
+
+ }
+
+/* banner end */
+
+
+
+
+.filter--section .filter--contain .filter--button span{
+    color:#3DC73C;
+}
+
+
+.filter--section .sortby--dropdown{
+    width: 20rem;
+}
+
+.product--category .product--category--header span{
+    color: #3DC73C;
+}
+.filter--section .filter--contain .filter--button .range--slider{
+    color: #3DC73C;
+}
+.filter_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* product category item */
+
+.product_items .ec-card-group .ec-card-lg .ec-card-inner p{
+    text-align: center;
+    font-weight: 600;
+}
+.product_items img{
+    margin-top: -8rem;
+}
+
+@media (max-width: 786px) { 
+
+
+    .product_items .ec-card-group .ec-card-lg .ec-card-inner{
+        padding: 1rem;
+        margin: 0;
+        margin-top: -10rem;
+        font-size: 0.5rem;
+        
+    }
+    .product_items .ec-card-group .ec-card-lg .ec-card-inner img{
+        
+        width: 280px; 
+        height: 200px; 
+    }
+    .product_items .ec-card-group .ec-card-lg .ec-card-inner p{
+        font-weight: 200;
+        font-size: 0.5rem;
+        margin-top: -3rem;
+    }
+
+ }
+@media (max-width: 576px) { 
+
+
+  .ec-card-inner img{
+        
+        width: 20px;
+        height: 5px;
+    }
+    .product_items .ec-card-group .ec-card-lg .ec-card-inner p{
+        font-size: 0.9rem;
+    }
+
+ }
+
+
+/* product category item ends */
+
+
+/* ~~~~~~Category page ends~~~~~~~~~ */
+
+
+
+/* ~~~~~~Sub Category page starts~~~~~~~~~ */
+
+
+.subcat--banner--section .subcat--banner--wrap .subcat_banner_img{
+margin-top: 0.5rem;
+padding: 1rem;
+}
+.subcat--banner--section .subcat--banner--wrap .subcat_banner_img .wrap_left{
+    padding-left: 5rem;
+}
+.subcat--banner--section .subcat--banner--wrap .subcat_banner_img .wrap_right img{
+    padding-right: 5rem;
+    height: 24rem;
+}
+@media (max-width: 768px) { 
+
+
+    .subcat--banner--section .subcat--banner--wrap .subcat_banner_img{
+        align-items: center;
+    }
+    .subcat--banner--section .subcat--banner--wrap .subcat_banner_img .wrap_left img{
+        width: 25rem;
+        height: 6rem;
+    }
+    .subcat--banner--section .subcat--banner--wrap .subcat_banner_img .wrap_right img{
+        width: 25rem;
+        height: 6rem;
+    }
+
+ }
+@media (max-width: 576px) { 
+
+    .subcat--banner--section .subcat--banner--wrap .subcat_banner_img{
+        align-items: center;
+    }
+    .subcat--banner--section .subcat--banner--wrap .subcat_banner_img .wrap_left img{
+        width: 25rem;
+        height: 6rem;
+    }
+    .subcat--banner--section .subcat--banner--wrap .subcat_banner_img .wrap_right img{
+        width: 25rem;
+        height: 6rem;
+    }
+
+ }
+
+/* subcat--banner ends */
+
+/* subcat product item strats 2021 */
+
+.product_items{
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) { 
+
+    .product_items .ec-card-group .ec-card-lg .ec-card-inner img{
+        /* padding: 1rem; */
+        margin: 0;
+        width: 10rem !important; 
+        height: 7rem; 
+    }
+    .product_items .ec-card-group .ec-card-lg .ec-card-inner p{
+        font-weight: 200;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+ }
+
+ }
+
+ /* ___________________not working css____________________ */
+
+
+
+
+@media (max-width: 576px) { 
+
+    .product_items .ec-card-group .ec-card-lg .ec-card-inner img{
+        width: 2rem;
+    }
+
+    .product_items .ec-card-group .ec-card-lg .ec-card-inner p{
+        font-weight: 300;
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+
+ }
+
+
+
+/* ~~~~~~Sub Category page ends~~~~~~~~~ */
+
+/* product items starts */
+
+.product_items .ec-card-group .ec-card-lg{
+    margin: 5rem;
+    /* padding: 1rem; */
+}
+
+/* product items end */

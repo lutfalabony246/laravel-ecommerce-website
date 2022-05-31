@@ -1,0 +1,9 @@
+.edit-icon {
+    color: green;
+}
+.delete-icon {
+    color: red;
+}
+.content-page table tbody .image {
+    height: 30px;
+}

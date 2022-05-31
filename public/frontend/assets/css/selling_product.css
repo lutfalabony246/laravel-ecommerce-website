@@ -1,0 +1,137 @@
+.selling-product {
+    padding: 0.5rem 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .selling-product {
+        padding: 20px;
+    }
+}
+
+.selling-product-header h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.selling-product-header h4:before {
+    position: absolute;
+    content: " ";
+    width: 200px;
+    height: 2px;
+    background: #CACACA;
+    top: 47px;
+    left: 0;
+    margin-bottom: 30px;
+
+}
+
+.selling-product-header h4::after {
+    position: absolute;
+    content: " ";
+    width: 83.47px;
+    height: 4px;
+    background: #F9B92E;
+    top: 46px;
+    left: 0;
+    margin-bottom: 30px;
+}
+
+.selling-product-inner {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.selling-product-inner .selling-product-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.selling-product-info {
+  
+    padding: 20px;
+}
+
+.selling-product-info h6 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #464A43;
+    margin-bottom: 8px;
+}
+
+.ratting-product {
+    margin-bottom: 15px;
+}
+
+.ratting-product .ratting {
+    color: #FFA800;
+}
+
+.ratting-product .ratting-gray {
+    color: #C4C4C4;
+}
+
+.selling-product-info span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #464A43;
+}
+
+.selling-product-info p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #65C21B;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .selling-product-info {
+        padding: 5px;
+    }
+    .selling-product-info h6 {
+            font-size: 11px;
+             line-height: 1.5;
+    }
+    .selling-product-info span {
+        font-size: 14px!important;
+    }
+}
+
+
+@media (min-width: 420px) {
+    .selling-product-inner .selling-product-img img {
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+    }
+
+    .selling-product-info {
+        /* margin: 20px; */
+        padding: 10px;
+    }
+
+}
+
+@media (min-width: 375px) {
+    .selling-product-inner .selling-product-img img {
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+    }
+
+    .selling-product-info {
+        /* margin: 20px; */
+        padding: 5px;
+    }
+
+}

@@ -1,0 +1,6 @@
+{
+    "version": "5.0.0 beta-1",
+    "mappings":"AAKA,EAAG;EACC,SAAS,EANF,IAAI;EAOX,KAAK",
+    "sources": ["sass/bootstrap.scss"],
+    "file": "bootstrap.css"
+  }

@@ -1,0 +1,6 @@
+{
+    "version": "3",
+    "mappings":"AAKA,EAAG;EACC,SAAS,EANF,IAAI;EAOX,KAAK",
+    "sources": ["sass/themify.scss"],
+    "file": "themify.css"
+  }

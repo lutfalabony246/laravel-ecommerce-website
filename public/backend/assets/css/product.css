@@ -1,0 +1,27 @@
+.switchery{
+  width: 65px !important;
+}
+.switchery>small{
+  left: 35px;
+}
+.form-check-input:checked{
+  background-color: #039cfd!important;
+  border-color: #039cfd!important;
+}
+.card-header{
+  background-color: #fff;
+}
+.switch .switchery{
+  float: right;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #039cfd;
+  color: #fff;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected]:hover{
+  background-color: #039cfd;
+  color: #fff;
+}
+.select2-container .select2-selection--multiple .select2-selection__choice {
+  background-color: #039cfd;
+}
